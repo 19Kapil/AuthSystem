@@ -81,4 +81,3 @@ Logs in a user and returns access and refresh tokens.
   `node -e "console.log(require('crypto').randomBytes(64).toString('hex'))"`)
   This command generates a 64-byte (512-bit) random string and outputs it as a 128-character hexadecimal string, useful for secure values in cryptographic applications.
 - `PORT=5000`
-
