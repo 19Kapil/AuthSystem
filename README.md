@@ -75,10 +75,10 @@ Logs in a user and returns access and refresh tokens.
 
 ### Add the following variables to your .env file:
 
-- MONGO_URI=mongodb://localhost:27017/yourDb
-- JWT_SECRET=  use your JWT secret key or can use this:
-             node -e "console.log(require('crypto').randomBytes(64).toString('hex'))"
-            ( This command generates a 64-byte (512-bit) random string and
-              outputs it as a 128-character hexadecimal string,
-               useful for secure values in cryptographic applications.) 
- - PORT=5000
+- `MONGO_URI=mongodb://localhost:27017/yourDb`
+- `JWT_SECRET= <your-jwt-secret>`
+  (Use your JWT secret key or generate one using the following command:
+  `node -e "console.log(require('crypto').randomBytes(64).toString('hex'))"`)
+  This command generates a 64-byte (512-bit) random string and outputs it as a 128-character hexadecimal string, useful for secure values in cryptographic applications.
+- `PORT=5000`
+
